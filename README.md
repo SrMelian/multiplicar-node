@@ -8,6 +8,7 @@ Ejecutar ```$ npm install``` para instalar liberías.
 
 ## Comandos
 
-| Comando | Descripción |
+| **Comando / Parámetro** | **Descripción** |
 | ------ | ------ |
-| listar | asd |
+| listar | Imprime en consola la tabla de multiplicar |
+| --base, -b | *Requerido* Establece el multiplicador de la operación |
