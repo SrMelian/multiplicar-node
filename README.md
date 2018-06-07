@@ -1,9 +1,12 @@
-## Multiplicar Console App
+# Multiplicar Console App
 
-Esta es una aplicación para generar archivos de tablase de multiplicar
+Esta es una aplicación para generar archivos de tablas de multiplicar
 
-Ejecutar este comando
+## Pasos previos
 
-```
-npm install
-```
+Ejecutar ```sh npm install``` para instalar liberías.
+
+## Comandos
+
+| Comando | Descripción |
+
