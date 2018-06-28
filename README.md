@@ -1,19 +1,20 @@
-# Multiplicar Console App
+# Multiply Console App
+*Traingin project*
 
-Aplicación para generar archivos de tablas de multiplicar en .txt basado en Node. Ejercicio de curso.
+App to generate files with multiplication tables in .txt, made it in Node.js
 
-## Pasos previos
+## Previou stps
 
-Ejecutar ```$ npm install``` para instalar liberías.
+Run the command ```$ npm install``` to install the packages
 
-## Comandos
+## Commands
 
-| **Comando / Parámetro** | **Descripción** | **Ejemplo**|
+| **Command / Param** | **Description** | **Example**|
 | ------ | ------ | ------ |
-| listar | Imprime en consola la tabla de multiplicar | - |
-| &nbsp;&nbsp;&nbsp;&nbsp;--base, -b | *[Requerido]* Establece el multiplicador de la operación | ```$ node app listar -b 5``` |
-| &nbsp;&nbsp;&nbsp;&nbsp;--limite, -l | *[Opcional - Default: 10]* Establece el límite de la iteración del multiplicando | ```$ node app listar -b 5 -l 50``` |
-| crear | Crea el archivo con la tabla de multiplicar en el directorio de tablas dentro del proyecto | - |
-| &nbsp;&nbsp;&nbsp;&nbsp;--base, -b | *[Requerido]* Establece el multiplicador de la operación | ```$ node app listar -b 5``` |
-| &nbsp;&nbsp;&nbsp;&nbsp;--limite, -l | *[Opcional - Default: 10]* Establece el límite de la iteración del multiplicando | ```$ node app listar -b 5 -l 50``` |
-| --help | Muestra la ayuda | ```$ node app --help``` |
+| listar | Print in the console the multiplication table | - |
+| &nbsp;&nbsp;&nbsp;&nbsp;--base, -b | *[Required]* Set the multiplier | ```$ node app listar -b 5``` |
+| &nbsp;&nbsp;&nbsp;&nbsp;--limite, -l | *[Optional - Default: 10]* Set the limit of the multiplication iteration | ```$ node app listar -b 5 -l 50``` |
+| crear | Create the file with the multiplication table in the directory "tablas" inside the project | - |
+| &nbsp;&nbsp;&nbsp;&nbsp;--base, -b | *[Required]* Set the multiplier | ```$ node app listar -b 5``` |
+| &nbsp;&nbsp;&nbsp;&nbsp;--limite, -l | *[Optional - Default: 10]* Set the limit of the multiplication iteration | ```$ node app listar -b 5 -l 50``` |
+| --help | Show the help | ```$ node app --help``` |
